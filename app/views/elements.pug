@@ -52,7 +52,7 @@ html
 					h2 Elements
 					p Just an assorted selection of elements.
 				.row
-					.12u
+					.x12u
 						// Text
 						section.box
 							h3 Text
@@ -112,12 +112,12 @@ html
 								\tprint 'It took ' + i + ' iterations to sort the deck.';
 								\t								
 				.row
-					.12u
+					.x12u
 						// Lists
 						section.box
 							h3 Lists
 							.row
-								.6u(class="12u(mobilep)")
+								.x6u(class="x12u(mobilep)")
 									h4 Unordered
 									ul
 										li Dolor pulvinar etiam magna etiam.
@@ -128,7 +128,7 @@ html
 										li Dolor pulvinar etiam magna etiam.
 										li Sagittis adipiscing lorem eleifend.
 										li Felis enim feugiat dolore viverra.
-								.6u(class="12u(mobilep)")
+								.x6u(class="x12u(mobilep)")
 									h4 Ordered
 									ol
 										li Dolor pulvinar etiam magna etiam.
@@ -173,7 +173,7 @@ html
 								li
 									a.button.alt.small(href="#") Small
 							.row
-								.3u(class="6u(narrower) 12u$(mobilep)")
+								.x3u(class="x6u(narrower) x12u$(mobilep)")
 									ul.actions.vertical
 										li
 											a.button.special(href="#") Default
@@ -181,7 +181,7 @@ html
 											a.button(href="#") Default
 										li
 											a.button.alt(href="#") Default
-								.3u(class="6u$(narrower) 12u$(mobilep)")
+								.x3u(class="x6u$(narrower) x12u$(mobilep)")
 									ul.actions.vertical.small
 										li
 											a.button.special.small(href="#") Small
@@ -189,7 +189,7 @@ html
 											a.button.small(href="#") Small
 										li
 											a.button.alt.small(href="#") Small
-								.3u(class="6u(narrower) 12u$(mobilep)")
+								.x3u(class="x6u(narrower) x12u$(mobilep)")
 									ul.actions.vertical
 										li
 											a.button.special.fit(href="#") Default
@@ -197,7 +197,7 @@ html
 											a.button.fit(href="#") Default
 										li
 											a.button.alt.fit(href="#") Default
-								.3u(class="6u$(narrower) 12u$(mobilep)")
+								.x3u(class="x6u$(narrower) x12u$(mobilep)")
 									ul.actions.vertical.small
 										li
 											a.button.special.small.fit(href="#") Small
@@ -206,7 +206,7 @@ html
 										li
 											a.button.alt.small.fit(href="#") Small
 				.row
-					.12u
+					.x12u
 						// Table
 						section.box
 							h3 Table
@@ -277,7 +277,7 @@ html
 											td(colspan="2")
 											td 100.00
 				.row
-					.12u
+					.x12u
 						// Buttons
 						section.box
 							h3 Buttons
@@ -324,18 +324,18 @@ html
 								li
 									span.button.alt.disabled Alternate
 				.row
-					.12u
+					.x12u
 						// Form
 						section.box
 							h3 Form
 							form(method="post", action="#")
-								.row.uniform(class="50%")
-									.6u(class="12u(mobilep)")
+								.row.uniform(class="x50%")
+									.x6u(class="x12u(mobilep)")
 										input#name(type="text", name="name", value="", placeholder="Name")
-									.6u(class="12u(mobilep)")
+									.x6u(class="x12u(mobilep)")
 										input#email(type="email", name="email", value="", placeholder="Email")
-								.row.uniform(class="50%")
-									.12u
+								.row.uniform(class="x50%")
+									.x12u
 										.select-wrapper
 											select#category(name="category")
 												option(value="") - Category -
@@ -343,28 +343,28 @@ html
 												option(value="1") Shipping
 												option(value="1") Administration
 												option(value="1") Human Resources
-								.row.uniform(class="50%")
-									.4u(class="12u(narrower)")
+								.row.uniform(class="x50%")
+									.x4u(class="x12u(narrower)")
 										input#priority-low(type="radio", name="priority", checked="")
 										label(for="priority-low") Low Priority
-									.4u(class="12u(narrower)")
+									.x4u(class="x12u(narrower)")
 										input#priority-normal(type="radio", name="priority")
 										label(for="priority-normal") Normal Priority
-									.4u(class="12u(narrower)")
+									.x4u(class="x12u(narrower)")
 										input#priority-high(type="radio", name="priority")
 										label(for="priority-high") High Priority
-								.row.uniform(class="50%")
-									.6u(class="12u(narrower)")
+								.row.uniform(class="x50%")
+									.x6u(class="x12u(narrower)")
 										input#copy(type="checkbox", name="copy")
 										label(for="copy") Email me a copy of this message
-									.6u(class="12u(narrower)")
+									.x6u(class="x12u(narrower)")
 										input#human(type="checkbox", name="human", checked="")
 										label(for="human") I am a human and not a robot
-								.row.uniform(class="50%")
-									.12u
+								.row.uniform(class="x50%")
+									.x12u
 										textarea#message(name="message", placeholder="Enter your message", rows="6")
 								.row.uniform
-									.12u
+									.x12u
 										ul.actions
 											li
 												input(type="submit", value="Send Message")
@@ -372,13 +372,13 @@ html
 												input.alt(type="reset", value="Reset")
 							hr
 							form(method="post", action="#")
-								.row.uniform(class="50%")
-									.9u(class="12u(mobilep)")
+								.row.uniform(class="x50%")
+									.x9u(class="x12u(mobilep)")
 										input#query(type="text", name="query", value="", placeholder="Query")
-									.3u(class="12u(mobilep)")
+									.x3u(class="x12u(mobilep)")
 										input.fit(type="submit", value="Search")
 				.row
-					.12u
+					.x12u
 						// Image
 						section.box
 							h3 Image
@@ -386,34 +386,34 @@ html
 							span.image.fit
 								img(src="images/pic04.jpg", alt="")
 							.box.alt
-								.row.no-collapse.uniform(class="50%")
-									.4u
+								.row.no-collapse.uniform(class="x50%")
+									.x4u
 										span.image.fit
 											img(src="images/pic04.jpg", alt="")
-									.4u
+									.x4u
 										span.image.fit
 											img(src="images/pic04.jpg", alt="")
-									.4u
+									.x4u
 										span.image.fit
 											img(src="images/pic04.jpg", alt="")
-								.row.no-collapse.uniform(class="50%")
-									.4u
+								.row.no-collapse.uniform(class="x50%")
+									.x4u
 										span.image.fit
 											img(src="images/pic04.jpg", alt="")
-									.4u
+									.x4u
 										span.image.fit
 											img(src="images/pic04.jpg", alt="")
-									.4u
+									.x4u
 										span.image.fit
 											img(src="images/pic04.jpg", alt="")
-								.row.no-collapse.uniform(class="50%")
-									.4u
+								.row.no-collapse.uniform(class="x50%")
+									.x4u
 										span.image.fit
 											img(src="images/pic04.jpg", alt="")
-									.4u
+									.x4u
 										span.image.fit
 											img(src="images/pic04.jpg", alt="")
-									.4u
+									.x4u
 										span.image.fit
 											img(src="images/pic04.jpg", alt="")
 							h4 Left & Right

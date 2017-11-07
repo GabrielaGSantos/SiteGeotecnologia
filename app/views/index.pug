@@ -15,46 +15,15 @@ html
 			link(rel="stylesheet", href="assets/css/ie8.css")
 	body.landing
 		#page-wrapper
-			// Header
-			header#header.alt
-				h1
-					a(href="index.html") Alpha
-					|  by HTML5 UP
-				nav#nav
-					ul
-						li
-							a(href="index.html") Home
-						li
-							a.icon.fa-angle-down(href="#") Layouts
-							ul
-								li
-									a(href="generic.html") Generic
-								li
-									a(href="contact.html") Contact
-								li
-									a(href="elements.html") Elements
-								li
-									a(href="#") Submenu
-									ul
-										li
-											a(href="#") Option One
-										li
-											a(href="#") Option Two
-										li
-											a(href="#") Option Three
-										li
-											a(href="#") Option Four
-						li
-							a.button(href="#") Sign Up
+			include ./shared/menu.pug
+
 			// Banner
 			section#banner
-				h2 Alpha
-				p Another fine responsive site template freebie by HTML5 UP.
+				h2 Estude Conosco
+				h3 Tecnólogo em Geoprocessamento
 				ul.actions
 					li
-						a.button.special(href="#") Sign Up
-					li
-						a.button(href="#") Learn More
+						a.button(href="#") Conheça nosso Curso
 			// Main
 			section#main.container
 				section.box.special
@@ -93,7 +62,7 @@ html
 							p
 								| Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.
 				.row
-					.6u(class="12u(narrower)")
+					.x6u(class="x12u(narrower)")
 						section.box.special
 							span.image.featured
 								img(src="images/pic02.jpg", alt="")
@@ -103,7 +72,7 @@ html
 							ul.actions
 								li
 									a.button.alt(href="#") Learn More
-					.6u(class="12u(narrower)")
+					.x6u(class="12u(narrower)")
 						section.box.special
 							span.image.featured
 								img(src="images/pic03.jpg", alt="")
@@ -118,37 +87,14 @@ html
 				h2 Sign up for beta access
 				p Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.
 				form
-					.row.uniform(class="50%")
-						.8u(class="12u(mobilep)")
+					.row.uniform(class="x50%")
+						.x8u(class="x12u(mobilep)")
 							input#email(type="email", name="email", placeholder="Email Address")
-						.4u(class="12u(mobilep)")
+						.x4u(class="x12u(mobilep)")
 							input.fit(type="submit", value="Sign Up")
-			// Footer
-			footer#footer
-				ul.icons
-					li
-						a.icon.fa-twitter(href="#")
-							span.label Twitter
-					li
-						a.icon.fa-facebook(href="#")
-							span.label Facebook
-					li
-						a.icon.fa-instagram(href="#")
-							span.label Instagram
-					li
-						a.icon.fa-github(href="#")
-							span.label Github
-					li
-						a.icon.fa-dribbble(href="#")
-							span.label Dribbble
-					li
-						a.icon.fa-google-plus(href="#")
-							span.label Google+
-				ul.copyright
-					li © Untitled. All rights reserved.
-					li
-						| Design: 
-						a(href="http://html5up.net") HTML5 UP
+
+			include ./shared/footer.pug
+
 		// Scripts
 		script(src="assets/js/jquery.min.js")
 		script(src="assets/js/jquery.dropotron.min.js")
