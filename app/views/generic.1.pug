@@ -15,48 +15,23 @@ html
 			link(rel="stylesheet", href="assets/css/ie8.css")
 	body
 		#page-wrapper
-			// Header
-			header#header
-				h1
-					a(href="index.html") Alpha
-					|  by HTML5 UP
-				nav#nav
-					ul
-						li
-							a(href="index.html") Home
-						li
-							a.icon.fa-angle-down(href="#") Layouts
-							ul
-								li
-									a(href="generic.html") Generic
-								li
-									a(href="contact.html") Contact
-								li
-									a(href="elements.html") Elements
-								li
-									a(href="#") Submenu
-									ul
-										li
-											a(href="#") Option One
-										li
-											a(href="#") Option Two
-										li
-											a(href="#") Option Three
-										li
-											a(href="#") Option Four
-						li
-							a.button(href="#") Sign Up
+			include ./shared/menu.pug
+
 			// Main
 			section#main.container
 				header
-					h2 Generic
+					h2 Institucional
 					p A generic page for every non-generic situation.
 				.box
 					span.image.featured
 						img(src="images/pic01.jpg", alt="")
-					h3 This is a subheading
+					h3 Regimento Interno
 					p
-						| Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.
+						| O presente Regimento Geral consiste no conjunto de normas que disciplinam a organização e o funcionamento do Instituto Federal de Educação, Ciência e Tecnologia de Mato Grosso – IFMT, estabelecendo a dinâmica das atividades acadêmicas e administrativas e das relações entre os órgãos da instituição e tem por objetivo complementar e normatizar as disposições estatutárias.
+						.x3u(class="x6u(narrower) x12u$(mobilep)")
+							ul.actions.vertical
+								li
+									a.button.fit(href="#") Baixar Regimento Geral
 					.row
 						.x6u(class="x12u(mobilep)")
 							h3 And now a subheading
@@ -90,7 +65,7 @@ html
 				ul.copyright
 					li © Untitled. All rights reserved.
 					li
-						| Design: 
+						| Design:
 						a(href="http://html5up.net") HTML5 UP
 		// Scripts
 		script(src="assets/js/jquery.min.js")

@@ -9,20 +9,16 @@ app.get("/", (req,res)=>{
     res.render("index")
 })
 
-app.get("/index.html", (req,res)=>{
-    res.render("index")
+app.get("/institucional", (req,res)=>{
+    res.render("institucional")
 })
 
-app.get("/elements.html", (req,res)=>{
-    res.render("elements")
+app.get("/cursos", (req,res)=>{
+    res.render("./cursos/cursos")
 })
 
-app.get("/generic.html", (req,res)=>{
-    res.render("generic")
-})
-
-app.get("/contact.html", (req,res)=>{
-    res.render("contact")
+app.get("/professores", (req,res)=>{
+    res.render("professores")
 })
 
 app.get("*", (req,res)=>{
